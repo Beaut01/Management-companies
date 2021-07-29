@@ -1,0 +1,3 @@
+export const SET_LOADING = 'SET_LOADING'
+export const SET_COMPANIES = 'SET_COMPANIES'
+export const FETCH_COMPANIES = 'FETCH_COMPANIES'
