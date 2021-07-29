@@ -1,0 +1,25 @@
+.streets{
+    &--title{
+        padding: 20px;
+        background-color: #FFA07A;
+        border-radius: 10px;
+        cursor: pointer;
+
+        &:hover, :active{
+            span{
+                svg{
+                    transform: rotate(0deg);
+                }
+            } 
+        }
+    }
+
+    &--chevron{
+        top: -3px;
+        margin-left: 5px;
+        
+        svg{
+            transform: rotate(-90deg);
+        }
+    }
+}

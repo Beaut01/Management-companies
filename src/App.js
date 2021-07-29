@@ -11,8 +11,8 @@ function App() {
     <BrowserRouter>
     <Navbar />
       <Switch>
-        <Route component={Home} path='/' />
-        <Route component={Streets} path='/companies' />
+        <Route component={Home} path='/' exact />
+        <Route component={Streets} path='/company/:id' />
         <Route component={Clients} path='/client' />
       </Switch>
     </BrowserRouter>

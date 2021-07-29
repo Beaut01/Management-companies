@@ -1,3 +1,7 @@
 export const SET_LOADING = 'SET_LOADING'
 export const SET_COMPANIES = 'SET_COMPANIES'
 export const FETCH_COMPANIES = 'FETCH_COMPANIES'
+
+export const SET_STREETS = 'SET_STREETS'
+export const FETCH_STREETS = 'FETCH_STREETS'
+export const SET_HOUSES = 'SET_HOUSES'
