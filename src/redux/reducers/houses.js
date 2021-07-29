@@ -9,7 +9,7 @@ export const housesReducer = (state = initialState, action)=> {
         case SET_HOUSES: 
             return{
                 ...state,
-                houses: action.payload.filter((item, index, arr) => arr.map((item) => item.building).indexOf(item.building) === index)
+                houses: action.payload.filter((item, index, arr) => arr.map((item) => item.houseId).indexOf(item.houseId) === index)
             }
         default: 
             return state

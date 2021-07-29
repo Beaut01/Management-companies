@@ -4,4 +4,7 @@ export const FETCH_COMPANIES = 'FETCH_COMPANIES'
 
 export const SET_STREETS = 'SET_STREETS'
 export const FETCH_STREETS = 'FETCH_STREETS'
+
 export const SET_HOUSES = 'SET_HOUSES'
+
+export const SET_FLATS = 'SET_FLATS'

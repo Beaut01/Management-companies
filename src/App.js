@@ -13,7 +13,7 @@ function App() {
       <Switch>
         <Route component={Home} path='/' exact />
         <Route component={Streets} path='/company/:id' />
-        <Route component={Clients} path='/client' />
+        <Route component={Clients} path='/client/:addressId' />
       </Switch>
     </BrowserRouter>
   );
